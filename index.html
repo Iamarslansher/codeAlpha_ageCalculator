@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Age Calculator</h1>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFRJjAKYkNP0rOrpjurqxb1sj8WxyZOmgJXuDtV2xyg&s"
+          alt="Calendar Icon"
+          width="80"
+          style="border-radius: 50%"
+        />
+      </div>
+      <h1>Age Calculator</h1>
+      <div class="calculator">
+        <label for="dob">Enter your date of birth:</label>
+        <input type="date" id="dob" required />
+        <label for="curntDate">Age at the Date of:</label>
+        <input type="date" id="curntDate" required />
+        <button onclick="calculateAge()">Calculate Age</button>
+        <div id="result" class="result"></div>
+      </div>
+      <div class="quote">
+        <p>“Do not regret growing older. It is a privilege denied to many.”</p>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
